@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: hsl(190, 60%, 95%);
+}
+.all {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.naglowek {
+    width: 50%;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    border: 2px solid black;
+    padding: 5px 5px 10px 5px;
+}
+p {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    font-family: sans-serif;
+}
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 50%;
+    gap: 0.5rem;
+}
+button {
+    width: 100%;
+    height: 5vh;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+button:hover {
+    background-color: grey;
+}
+button:active {
+    background-color: white;
+}
+button.selected {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid black;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: hsl(191, 24%, 51%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.footer-text {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.end {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#btn {
+    text-align: center;
+    width: 80%;
+    font-size: 3rem;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: #333333;
+    font-family: sans-serif;
+}
+#btn:visited {
+    background-color: lightgrey;
+    color: #333333;
+}
+#btn:hover {
+    background-color: grey;
+    color: black;
+}
+#btn:active {
+    background-color: white;
+    color: black;
+}

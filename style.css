@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(190, 60%, 95%);
+    flex-direction: column;
+}
+.all {
+    width: 100%;
+    max-width: 2000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-quiz {
+    max-width: 1500px;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDFDFD;
+    border-radius: 100px;
+    border: 5px dotted black;
+    background-color: lightblue;
+}
+.quiz-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quiz-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 10rem;
+    margin: 3rem 1rem 0 0;
+    color: #333333;
+    font-family: sans-serif;
+}
+p {
+    font-size: 2rem;
+    color: #333333;
+    font-family: sans-serif;
+}
+#btn {
+    font-size: 3rem;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: #333333;
+    font-family: sans-serif;
+}
+#btn:visited {
+    background-color: lightgrey;
+    color: #333333;
+}
+#btn:hover {
+    background-color: grey;
+    color: black;
+}
+#btn:active {
+    background-color: white;
+    color: black;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: hsl(191, 24%, 51%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+span {
+    font-family: sans-serif;
+}
